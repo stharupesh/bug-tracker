@@ -1,0 +1,45 @@
+c:\users\rupesh shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\bin\Debug\BugTracker.exe.config
+c:\users\rupesh shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.csprojResolveAssemblyReference.cache
+c:\users\rupesh shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Properties.Resources.resources
+c:\users\rupesh shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.csproj.GenerateResource.Cache
+c:\users\rupesh shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\bin\Debug\BugTracker.exe
+c:\users\rupesh shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\bin\Debug\BugTracker.pdb
+c:\users\rupesh shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.exe
+c:\users\rupesh shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.pdb
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\bin\Debug\ScintillaNET.dll
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\bin\Debug\ScintillaNET.xml
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.DashboardView.resources
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.HomeView.resources
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.RegistrationForm.resources
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.ProfileEditForm.resources
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.PasswordChangeForm.resources
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.ReportBugForm.resources
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.BugList.resources
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.BugView.resources
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.FixBugForm.resources
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.BugFixList.resources
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.ProjectList.resources
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\bin\Debug\BugTracker.exe.config
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.exe
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.pdb
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\bin\Debug\BugTracker.exe
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\bin\Debug\BugTracker.pdb
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\bin\Debug\ScintillaNET.dll
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\bin\Debug\ScintillaNET.xml
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.csprojResolveAssemblyReference.cache
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.BugFixList.resources
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.BugList.resources
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.BugView.resources
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.DashboardView.resources
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.FixBugForm.resources
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.HomeView.resources
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Properties.Resources.resources
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.PasswordChangeForm.resources
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.ProfileEditForm.resources
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.ProjectList.resources
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.RegistrationForm.resources
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.ReportBugForm.resources
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.csproj.GenerateResource.Cache
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.projectForm.resources
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.UserList.resources
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTracker\obj\Debug\BugTracker.Views.FixView.resources

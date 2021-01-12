@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6F33FE00-FC89-461F-BAC3-3A0911CEF205}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BugTracker</RootNamespace>
+    <AssemblyName>BugTracker</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ScintillaNET, Version=3.5.10.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\jacobslusser.ScintillaNET.3.5.10\lib\net40\ScintillaNET.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controllers\BugCtrl.cs" />
+    <Compile Include="Controllers\BugFixCtrl.cs" />
+    <Compile Include="Controllers\DashboardCtrl.cs" />
+    <Compile Include="Controllers\ProjectCtrl.cs" />
+    <Compile Include="Controllers\UserCtrl.cs" />
+    <Compile Include="Core\Validator.cs" />
+    <Compile Include="Models\Bug.cs" />
+    <Compile Include="Models\Fix.cs" />
+    <Compile Include="Models\ProjectType.cs" />
+    <Compile Include="Models\Project.cs" />
+    <Compile Include="Models\User.cs" />
+    <Compile Include="Models\UserType.cs" />
+    <Compile Include="Services\Auth.cs" />
+    <Compile Include="Services\MD5Encrypter.cs" />
+    <Compile Include="Validators\BugAddFormValidator.cs" />
+    <Compile Include="Validators\BugFixFormValidator.cs" />
+    <Compile Include="Validators\LoginFormValidator.cs" />
+    <Compile Include="Validators\PasswordFormValidator.cs" />
+    <Compile Include="Validators\ProfileEditFormValidator.cs" />
+    <Compile Include="Validators\ProjectFormValidator.cs" />
+    <Compile Include="Validators\RegistrationFormValidator.cs" />
+    <Compile Include="Views\BugFixList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\BugFixList.Designer.cs">
+      <DependentUpon>BugFixList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BugList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\BugList.Designer.cs">
+      <DependentUpon>BugList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\BugView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\BugView.Designer.cs">
+      <DependentUpon>BugView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CodeEditorTextArea.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Views\DashboardView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\DashboardView.Designer.cs">
+      <DependentUpon>DashboardView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FixBugForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FixBugForm.Designer.cs">
+      <DependentUpon>FixBugForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\FixView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\FixView.Designer.cs">
+      <DependentUpon>FixView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\UserList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\UserList.Designer.cs">
+      <DependentUpon>UserList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\HomeView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\HomeView.Designer.cs">
+      <DependentUpon>HomeView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Configuration\Config.cs" />
+    <Compile Include="Core\Database\DB.cs" />
+    <Compile Include="Core\Database\DBConnection.cs" />
+    <Compile Include="Core\Database\Model.cs" />
+    <Compile Include="Core\Database\QueryBuilder.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Views\PasswordChangeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\PasswordChangeForm.Designer.cs">
+      <DependentUpon>PasswordChangeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProfileEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ProfileEditForm.Designer.cs">
+      <DependentUpon>ProfileEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProjectForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ProjectForm.Designer.cs">
+      <DependentUpon>ProjectForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ProjectList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ProjectList.Designer.cs">
+      <DependentUpon>ProjectList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\RegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\RegistrationForm.Designer.cs">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReportBugForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\ReportBugForm.Designer.cs">
+      <DependentUpon>ReportBugForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Utils\HotKeyManager.cs" />
+    <Compile Include="Views\Utils\SearchManager.cs" />
+    <EmbeddedResource Include="Views\BugFixList.resx">
+      <DependentUpon>BugFixList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BugList.resx">
+      <DependentUpon>BugList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\BugView.resx">
+      <DependentUpon>BugView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\DashboardView.resx">
+      <DependentUpon>DashboardView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FixBugForm.resx">
+      <DependentUpon>FixBugForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\FixView.resx">
+      <DependentUpon>FixView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\HomeView.resx">
+      <DependentUpon>HomeView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Views\PasswordChangeForm.resx">
+      <DependentUpon>PasswordChangeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ProfileEditForm.resx">
+      <DependentUpon>ProfileEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ProjectForm.resx">
+      <DependentUpon>ProjectForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ProjectList.resx">
+      <DependentUpon>ProjectList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\RegistrationForm.resx">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\ReportBugForm.resx">
+      <DependentUpon>ReportBugForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\UserList.resx">
+      <DependentUpon>UserList.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reportBugIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\registerIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchMiniIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainIconMini.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logoTitleIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\userAvatar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caretIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\previousSearchIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nextSearchIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\closeSearchIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usersManageIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\projectsManageIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bugsIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editProfileIcon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

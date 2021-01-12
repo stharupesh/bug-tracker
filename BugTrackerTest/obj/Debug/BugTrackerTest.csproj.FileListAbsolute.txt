@@ -1,0 +1,18 @@
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTrackerTest\bin\Debug\BugTrackerTest.dll
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTrackerTest\bin\Debug\BugTrackerTest.pdb
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTrackerTest\bin\Debug\BugTracker.exe
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTrackerTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTrackerTest\bin\Debug\BugTracker.pdb
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTrackerTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTrackerTest\obj\Debug\BugTrackerTest.csprojResolveAssemblyReference.cache
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTrackerTest\obj\Debug\BugTrackerTest.dll
+C:\Users\Rupesh Shrestha\documents\visual studio 2015\Projects\BugTracker\BugTrackerTest\obj\Debug\BugTrackerTest.pdb
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTrackerTest\bin\Debug\BugTrackerTest.dll
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTrackerTest\bin\Debug\BugTrackerTest.pdb
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTrackerTest\bin\Debug\BugTracker.exe
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTrackerTest\bin\Debug\ScintillaNET.dll
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTrackerTest\bin\Debug\BugTracker.pdb
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTrackerTest\bin\Debug\ScintillaNET.xml
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTrackerTest\obj\Debug\BugTrackerTest.csprojResolveAssemblyReference.cache
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTrackerTest\obj\Debug\BugTrackerTest.dll
+C:\Users\RupeshShrestha\Documents\Visual Studio 2015\Projects\BugTracker\BugTrackerTest\obj\Debug\BugTrackerTest.pdb
